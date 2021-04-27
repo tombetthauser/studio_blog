@@ -22,28 +22,38 @@ class SiteBot:
     self.options.add_argument('--no-sandbox')
     self.driver = webdriver.Chrome(executable_path="./chromedriver.exe", options=self.options)
 
+    self.images_dict = []
+
+
   def visit_url(self, url, wait=2):
     self.driver.get(url)
     sleep(wait)
     print(self.driver.title)
 
+
   def take_screenshot(self, file_name="screenshot.png"):
+    print(f"Printing screenshot for {file_name}...")
     self.driver.get_screenshot_as_file(file_name)
+
 
   def get_images(self):
     # driver.find_elements_by_class_name()
     images = self.driver.find_elements_by_class_name("x-stream-photo-group-blocks-container-view")
+    print(f"Cycling through {len(images)} found images...")
     
     for i in range(len(images)):
       images[i].click()
       sleep(2)
       self.take_screenshot(f"screenshot_{i}.png")
+      current_image = self.driver.find_element_by_tag_name("img")
+      current_image_source = current_image.get_attribute("src")
+      self.images_dict[i] = {"src": current_image_source}
+      print(self.images_dict)
       self.driver.back()
       sleep(2)
       images = self.driver.find_elements_by_class_name("x-stream-photo-group-blocks-container-view")
 
     # images = self.driver.find_elements_by_tag_name("p")
-    print(len(images))
 
 
 
