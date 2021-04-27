@@ -1,4 +1,25 @@
 body {
-  background-color: pink;
-  color: white;
+  display: block;
+  width: 90%;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+
+.header-div {
+  border-bottom: 1px solid black;
+  margin-bottom: 60px;
+}
+
+h1, h2 {
+  font-weight: 100;
+}
+
+img {
+  width: 100%;
+}
+
+p {
+  margin-bottom: 50px;
 }
