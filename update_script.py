@@ -1,5 +1,6 @@
 from selenium import webdriver
 from time import sleep
+import os
 
 
 class SiteBot:
@@ -20,5 +21,9 @@ class SiteBot:
     self.options.add_argument('--disable-dev-shm-usage')
     self.options.add_argument('--no-sandbox')
     self.driver = webdriver.Chrome(executable_path="./chromedriver.exe", options=self.options)
+
+    self.driver.get("http://google.com")
+    self.driver.get_screenshot_as_file("screenshot.png")
+    print(self.driver.title)
 
 SiteBot()
