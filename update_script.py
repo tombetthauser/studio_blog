@@ -110,7 +110,7 @@ class SiteBot:
     '''
 
   def create_markdown_element(self, src, text):
-    return f'''\n<img style="max-width: 500px; margin-bottom: 20px" src="{src}">\n<br><p style="margin-bottom: 50px">{text}</p><br><br>'''
+    return f'''\n<img style="max-width: 500px; margin-bottom: 20px" src="{src}">\n<br><p style="margin-bottom: 50px">{text}</p><br><br><br>'''
     # return f'\n![{text}]({src})\n{text}'
 
 new_bot = SiteBot()
