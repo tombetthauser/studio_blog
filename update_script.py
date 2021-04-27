@@ -1,5 +1,6 @@
 from selenium import webdriver
 from time import sleep
+import urllib.request
 import os
 
 
@@ -22,7 +23,7 @@ class SiteBot:
     self.options.add_argument('--no-sandbox')
     self.driver = webdriver.Chrome(executable_path="./chromedriver.exe", options=self.options)
 
-    self.images_dict = []
+    self.images_dict = {}
 
 
   def visit_url(self, url, wait=2):
@@ -45,9 +46,21 @@ class SiteBot:
       images[i].click()
       sleep(2)
       self.take_screenshot(f"screenshot_{i}.png")
+
       current_image = self.driver.find_element_by_tag_name("img")
       current_image_source = current_image.get_attribute("src")
-      self.images_dict[i] = {"src": current_image_source}
+
+      current_image_text_element = self.driver.find_element_by_class_name("main")
+      current_image_text = current_image_text_element.get_attribute("innerText")
+      print(current_image_text)
+
+      self.images_dict[i] = {
+        "src": current_image_source,
+        "text": current_image_text,
+        }
+
+      urllib.request.urlretrieve(current_image_source, f"images/image_{i}.png")
+
       print(self.images_dict)
       self.driver.back()
       sleep(2)
