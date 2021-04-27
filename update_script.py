@@ -22,8 +22,16 @@ class SiteBot:
     self.options.add_argument('--no-sandbox')
     self.driver = webdriver.Chrome(executable_path="./chromedriver.exe", options=self.options)
 
-    self.driver.get("http://google.com")
-    self.driver.get_screenshot_as_file("screenshot.png")
+  def visit_url(self, url):
+    self.driver.get(url)
+    # self.driver.get("https://www.icloud.com/sharedalbum/#B0o5oqs3q7vYSt")
     print(self.driver.title)
 
-SiteBot()
+  def take_screenshot(self, wait=2):
+    sleep(wait)
+    self.driver.get_screenshot_as_file("screenshot.png")
+
+
+new_bot = SiteBot()
+new_bot.visit_url("https://www.icloud.com/sharedalbum/#B0o5oqs3q7vYSt")
+new_bot.take_screenshot()
