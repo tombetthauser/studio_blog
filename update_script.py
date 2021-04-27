@@ -59,7 +59,7 @@ class SiteBot:
         "text": current_image_text,
         }
 
-      urllib.request.urlretrieve(current_image_source, f"images/image_{i}.png")
+      urllib.request.urlretrieve(current_image_source, f"images/{current_image_text}.png")
 
       print(self.images_dict)
       self.driver.back()
