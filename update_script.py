@@ -1,6 +1,7 @@
 from selenium import webdriver
 from time import sleep
 import urllib.request
+import sys
 import os
 
 
@@ -45,7 +46,6 @@ class SiteBot:
     for i in range(len(images)):
       images[i].click()
       sleep(2)
-      self.take_screenshot(f"screenshot_{i}.png")
 
       current_image = self.driver.find_element_by_tag_name("img")
       current_image_source = current_image.get_attribute("src")
@@ -68,9 +68,27 @@ class SiteBot:
 
     # images = self.driver.find_elements_by_tag_name("p")
 
+  def create_html_file(self):
+    # f = open("index.html", "x")
+    f = open("index.html", "w")
+    for thing in self.images_dict:
+      print(thing)
+      current_text = self.images_dict[thing]["text"]
+      current_src = self.images_dict[thing]["src"]
+      f.write(self.create_html_element(current_src, current_text))
+      # L = ["This is Delhi \n", "This is Paris \n", "This is London"]
+      # f.writelines(L)
+    f.close()
 
+  def create_html_element(self, src, text):
+    return f'''
+    <div>
+      <img src={src}>
+      <p>{text}</p>
+    <div>
+    '''
 
 new_bot = SiteBot()
 new_bot.visit_url("https://www.icloud.com/sharedalbum/#B0o5oqs3q7vYSt")
-# new_bot.take_screenshot()
 new_bot.get_images()
+new_bot.create_html_file()
