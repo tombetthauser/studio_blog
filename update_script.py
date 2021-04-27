@@ -110,7 +110,8 @@ class SiteBot:
     '''
 
   def create_markdown_element(self, src, text):
-    return f'\n![{text}]({src})\n{text}'
+    return f'''\n<img style="max-width: 500px; margin-bottom: 20px" src="{src}">\n<p style="margin-bottom: 50px">{text}</p>'''
+    # return f'\n![{text}]({src})\n{text}'
 
 new_bot = SiteBot()
 # new_bot.visit_url("https://www.icloud.com/sharedalbum/#B0o5oqs3q7vYSt")
