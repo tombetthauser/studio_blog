@@ -1,4 +1,8 @@
-# 🌱 Studio Images Blog
+<h1 style="margin-top: 20px; margin-bottom: 50px" >🌱 Studio Images Blog</h1>
+
+<img style="max-width: 500px; margin-bottom: 20px" src="https://cvws.icloud-content.com/S/AZZNIkmeOWgJ6ZMJ_zgoTYPOLUK4/IMG_0003.JPG?o=Aoq49Z96_JCacx6KmlF2cgBOStMxVeYZyxptf_emqtPm&v=1&z=https%3A%2F%2Fp50-content.icloud.com%3A443&x=1&a=CAogYD7oK8hlR-dk0xPBykDnjSWPIByg7LC0NT27VQWZ1NwSZRCqyNWnkS8Yqt_orJEvIgEAUgTOLUK4aiVawyAbimRxFD_nqLTh6Mz7YVODa0gzjCxtZnavUhxYX75RO5ptciW4Fxt1xz8yoBIcnkdYjB5aJsWjJpVx_RcDMAKt0CkMPrYodlyM&e=1619565096&r=4ba9da4a-f03d-4b9d-b359-ba972aed4a4c-6&s=X7eUFSBDcbGnNLX7i-m0BpENgb8">
+
+<p style="margin-bottom: 50px">Gettin closer...</p>
 
 ![Gettin closer...](https://cvws.icloud-content.com/S/AZZNIkmeOWgJ6ZMJ_zgoTYPOLUK4/IMG_0003.JPG?o=Aoq49Z96_JCacx6KmlF2cgBOStMxVeYZyxptf_emqtPm&v=1&z=https%3A%2F%2Fp50-content.icloud.com%3A443&x=1&a=CAogYD7oK8hlR-dk0xPBykDnjSWPIByg7LC0NT27VQWZ1NwSZRCqyNWnkS8Yqt_orJEvIgEAUgTOLUK4aiVawyAbimRxFD_nqLTh6Mz7YVODa0gzjCxtZnavUhxYX75RO5ptciW4Fxt1xz8yoBIcnkdYjB5aJsWjJpVx_RcDMAKt0CkMPrYodlyM&e=1619565096&r=4ba9da4a-f03d-4b9d-b359-ba972aed4a4c-6&s=X7eUFSBDcbGnNLX7i-m0BpENgb8)
 Gettin closer...
