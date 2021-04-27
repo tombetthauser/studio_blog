@@ -75,9 +75,10 @@ class SiteBot:
     f = open("index.html", "w")
     readme_file = open("README.md", "w")
     f2 = open("files/header.html", "r")
+    readme_header = open("files/header.md", "r")
     header_text = f2.read()
     f.write(header_text)
-    readme_file.write(header_text)
+    readme_file.write(readme_header.read())
     f2.close()
 
     # f = open("index.html", "w")
@@ -87,13 +88,13 @@ class SiteBot:
       current_text = self.images_dict[thing]["text"]
       current_src = self.images_dict[thing]["src"]
       new_html = self.create_html_element(current_src, current_text)
+      new_markdown = self.create_markdown_element(current_src, current_text)
       f.write(new_html)
-      readme_file.write(new_html)
+      readme_file.write(new_markdown)
     
     f3 = open("files/footer.html", "r")
     footer_text = f3.read()
     f.write(footer_text)
-    readme_file.write(footer_text)
     f3.close()
     
     f.close()
@@ -107,6 +108,9 @@ class SiteBot:
         <p>{text}</p>
       <div>
     '''
+
+  def create_markdown_element(self, src, text):
+    return f'\n![{text}]({src})\n{text}'
 
 new_bot = SiteBot()
 # new_bot.visit_url("https://www.icloud.com/sharedalbum/#B0o5oqs3q7vYSt")
