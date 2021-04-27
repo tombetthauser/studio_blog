@@ -115,8 +115,9 @@ class SiteBot:
     os.system("git add -A")
     sleep(5)
     today = date.today()
-    current_date = today.strftime(" % b-%d-%Y")
+    current_date = today.strftime("%d/%m/%Y")
     os.system(f"git commit -m 'Sync and update iCloud content for {current_date}'")
+    os.system("git push")
 
 new_bot = SiteBot()
 # new_bot.visit_url("https://www.icloud.com/sharedalbum/#B0o5oqs3q7vYSt", 5)
