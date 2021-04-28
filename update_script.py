@@ -106,12 +106,12 @@ class SiteBot:
         <a target="new" href="{src}">
           <img src={src}>
         </a>
-        <p>{text}</p>
+        <p class="text-p">{text}</p>
       <div>
     '''
 
   def create_markdown_element(self, src, text):
-    return f'''\n<img style="max-width: 500px; margin-bottom: 20px" src="{src}">\n<p class="text-p" style="margin-bottom: 50px">{text}</p><br>'''
+    return f'''\n<img style="max-width: 500px; margin-bottom: 20px" src="{src}">\n<p style="margin-bottom: 50px">{text}</p><br>'''
     # return f'''\n<img style="max-width: 500px; margin-bottom: 20px" src="{src}">\n<br><p style="margin-bottom: 50px">{text}</p><br><br><br>'''
 
   def commit_to_github(self):
