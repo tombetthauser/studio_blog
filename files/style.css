@@ -24,3 +24,8 @@ img {
 .text-p {
   margin-bottom: 50px;
 }
+
+a {
+  color: dodgerblue;
+  text-decoration: none;
+}
