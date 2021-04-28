@@ -6,8 +6,8 @@
 
 [blog webpage link](tombetthauser.github.io/studio_blog)
 <br>
-<!-- <br>
-<br> -->
+<br>
+<br>
 <img style="max-width: 500px; margin-bottom: 20px" src="https://cvws.icloud-content.com/S/AbjDnPT4gkojdj-EESS_38NzCtph/IMG_0008.JPG?o=AtTsKIACA676F92HIvwuaIrdCQP1VHBHAVzBs_jREhJN&v=1&z=https%3A%2F%2Fp50-content.icloud.com%3A443&x=1&a=CAog7Jw2FcGJ96hbUrDIRUm5t_AKApC3HaH5uXxEFFTg0LESZRDWwpHPkS8Y1tmk1JEvIgEAUgRzCtphaiX_h8AOBGRvWNOcCBXzmk84awu8JNT0p_KQtYd81fSojO9_VBT6ciVLsCZvbe5Pe1f2w9bshKLWlPCIwAc4_gz0KdDL3bbwOdHTdu8x&e=1619647868&r=7f0f76d8-ac99-4646-8d5b-f07c7d816c7f-12&s=7u28rh6ZHDsrjOuOg5OK1cjIjmk">
 <p style="margin-bottom: 50px">recess time...</p><br>
 <img style="max-width: 500px; margin-bottom: 20px" src="https://cvws.icloud-content.com/S/Ab2Rgwdj3BOyQCD6_z3tgJnXCW9f/IMG_0007.JPG?o=AglTg-q9ipEv7OgfwBPozzhdRvkhWqGTNsM1iwU7I1Gf&v=1&z=https%3A%2F%2Fp50-content.icloud.com%3A443&x=1&a=CAogSSZE1phk572edS-DdhZmLzJ6rQdccYwmdVUWtTbzpgcSZRDTm5LPkS8Y07Kl1JEvIgEAUgTXCW9faiUk6NLCWSIa0V67UMUZhtGukm1uNvqz6ZnuonrHokrQ39Id5MF1ciWj5jybFBDDXNUOIb6pbiYX131OcLFSsLmwA1kz-vyFZIOCSUHB&e=1619647879&r=3d22c009-eb9c-4e88-b767-abc17ca0a53d-13&s=h-HygGu61nQsyHoHnyl6pIqY2KU">
