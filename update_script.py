@@ -24,7 +24,7 @@ class SiteBot:
     self.options.add_argument('--disable-dev-shm-usage')
     self.options.add_argument('--no-sandbox')
     self.options.add_argument('--disable-dev-shm-usage')
-    # self.driver = webdriver.Chrome(executable_path="./chromedriver.exe", options=self.options)
+    self.driver = webdriver.Chrome(executable_path="./chromedriver.exe", options=self.options)
 
     self.images_dict = {}
     # Dummy images_dict for testing output without scraper...
@@ -120,7 +120,7 @@ class SiteBot:
     os.system("git push")
 
 new_bot = SiteBot()
-# new_bot.visit_url("https://www.icloud.com/sharedalbum/#B0o5oqs3q7vYSt", 5)
-# new_bot.get_images(5)
-# new_bot.output_files()
+new_bot.visit_url("https://www.icloud.com/sharedalbum/#B0o5oqs3q7vYSt", 5)
+new_bot.get_images(5)
+new_bot.output_files()
 new_bot.commit_to_github()
