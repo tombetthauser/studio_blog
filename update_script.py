@@ -108,7 +108,8 @@ class SiteBot:
     '''
 
   def create_markdown_element(self, src, text):
-    return f'''\n<img style="max-width: 500px; margin-bottom: 20px" src="{src}">\n<br><p style="margin-bottom: 50px">{text}</p><br><br><br>'''
+    return f'''\n<img style="max-width: 500px; margin-bottom: 20px" src="{src}">\n<p style="margin-bottom: 50px">{text}</p>'''
+    # return f'''\n<img style="max-width: 500px; margin-bottom: 20px" src="{src}">\n<br><p style="margin-bottom: 50px">{text}</p><br><br><br>'''
 
   def commit_to_github(self):
     print(f"Running commit_to_github()...")
