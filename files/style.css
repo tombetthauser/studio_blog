@@ -26,6 +26,11 @@ img {
 }
 
 a {
-  color: dodgerblue;
+  color: cornflowerblue;
   text-decoration: none;
+  margin-bottom: 2.5px;
+}
+
+.links-div {
+  color: cornflowerblue;
 }
