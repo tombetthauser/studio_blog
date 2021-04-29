@@ -101,17 +101,19 @@ class SiteBot:
     f.close()
 
   def create_html_element(self, src, text):
+    image_path = f'''https://raw.githubusercontent.com/tombetthauser/studio_blog/master/images/{text}.png'''
     return f'''
       <div>
-        <a target="new" href="{src}">
-          <img src={src}>
+        <a target="new" href="{image_path}">
+          <img src={image_path}>
         </a>
         <p class="text-p">{text}</p>
       <div>
     '''
 
   def create_markdown_element(self, src, text):
-    return f'''\n<img style="max-width: 500px; margin-bottom: 20px" src="{src}">\n<p style="margin-bottom: 50px">{text}</p><br>'''
+    image_path = f'''https://raw.githubusercontent.com/tombetthauser/studio_blog/master/images/{text}.png'''
+    return f'''\n<img style="max-width: 500px; margin-bottom: 20px" src="{image_path}">\n<p style="margin-bottom: 50px">{text}</p><br>'''
     # return f'''\n<img style="max-width: 500px; margin-bottom: 20px" src="{src}">\n<br><p style="margin-bottom: 50px">{text}</p><br><br><br>'''
 
   def commit_to_github(self):
