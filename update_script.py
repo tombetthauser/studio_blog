@@ -101,7 +101,9 @@ class SiteBot:
     f.close()
 
   def create_html_element(self, src, text):
-    image_path = f'''https://raw.githubusercontent.com/tombetthauser/studio_blog/master/images/{text}.png'''
+    split_text = text.split(' ')
+    joined_text = '%20'.join(split_text)
+    image_path = f'''https://raw.githubusercontent.com/tombetthauser/studio_blog/master/images/{joined_text}.png'''
     return f'''
       <div>
         <a target="new" href="{image_path}">
