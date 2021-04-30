@@ -1,7 +1,7 @@
 # echo $((1 + RANDOM % 1000))
 # identify -format '%w %h' A.png
 
-random_image_A="./images/$(ls images/ | sort -R | tail -n 1)"
+random_image_A="./collages/$(ls collages/ | sort -R | tail -n 1)"
 random_image_B="./images/$(ls images/ | sort -R | tail -n 1)"
 
 width_A=$(identify -format '%w' "$random_image_A")
@@ -26,7 +26,7 @@ random_height_B2=$((1 + RANDOM % $height_B))
 # ffmpeg -i B.png -i A.png -filter_complex "[1]scale=iw/2:-1[b];[0:v][b] overlay" out1.png
 
 
-output_file="collages/$(date +%s).png"
+output_file="collages/$(date +%s)-temp.png"
 
 ffmpeg \
       -i "$random_image_A" \
@@ -38,18 +38,33 @@ ffmpeg \
        [temp1][ovrl2] overlay=$random_width_B2:$random_height_B2" \
        $output_file
 
-random_brightness=$((-2 + RANDOM % 2))
-random_saturation=$((-2 + RANDOM % 2))
-random_contrast=$((-2 + RANDOM % 2))
+random_contrast="$(($RANDOM%3-1)).$((0 + RANDOM % 50))"
+random_saturation="$((0 + RANDOM % 3)).$((0 + RANDOM % 50))"
+random_brightness="0.$((0 + RANDOM % 50))"
 
-random_contrast="$(($RANDOM%3-1)).$((0 + RANDOM % 100))"
-random_saturation="$((0 + RANDOM % 3)).$((0 + RANDOM % 100))"
-random_brightness="0.$((0 + RANDOM % 100))"
+# random_contrast="$(($RANDOM%3-1)).$((0 + RANDOM % 100))"
+# random_saturation="$((0 + RANDOM % 3)).$((0 + RANDOM % 100))"
+# random_brightness="0.$((0 + RANDOM % 100))"
 
 # ffmpeg -i $output_file -vf eq=contrast=$random_contrast -c:a copy "collages/$(date +%s)-c.png"
-ffmpeg -i $output_file -vf eq=brightness=$random_brightness:saturation=$random_saturation:contrast=$random_contrast -c:a copy "collages/$(date +%s)-c.png"
+
+ffmpeg -i $output_file -vf \
+  eq=brightness=$random_brightness:saturation=$random_saturation:contrast=$random_contrast,drawtext="fontfile=/path/to/font.ttf: \
+    text='HELLO THERE': \ 
+    fontcolor=#$((0 + RANDOM % 10))$((0 + RANDOM % 10))$((0 + RANDOM % 10))$((0 + RANDOM % 10))$((0 + RANDOM % 10))$((0 + RANDOM % 10)): \ 
+    fontsize=$((0 + RANDOM % 2000)): \ 
+    box=1: \ 
+    boxcolor=black@0.5: \ 
+    boxborderw=5: \ 
+    x=(w-text_w)/2: \ 
+    y=(h-text_h)/2" \
+  -c:a copy "collages/$(date +%s).png"
 
 rm $output_file
+
+# ffmpeg -i input.mp4 -vf drawtext="fontfile=/path/to/font.ttf: \
+# text='Stack Overflow': fontcolor=white: fontsize=24: box=1: boxcolor=black@0.5: \
+# boxborderw=5: x=(w-text_w)/2: y=(h-text_h)/2" -codec:a copy output.mp4
 
 # first integer refers to an image index, seems like zero or one
 # second number decreases the size of the second overlayed image as it increases and accepts floats
