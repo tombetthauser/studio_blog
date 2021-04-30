@@ -42,10 +42,14 @@ random_brightness=$((-2 + RANDOM % 2))
 random_saturation=$((-2 + RANDOM % 2))
 random_contrast=$((-2 + RANDOM % 2))
 
-random_decimal_A="$(($RANDOM%3-1)).$((0 + RANDOM % 25))"
+random_contrast="$(($RANDOM%3-1)).$((0 + RANDOM % 100))"
+random_saturation="$((0 + RANDOM % 3)).$((0 + RANDOM % 100))"
+random_brightness="0.$((0 + RANDOM % 100))"
 
-ffmpeg -i $output_file -vf eq=contrast=$random_decimal_A -c:a copy "collages/$(date +%s)-c.png"
-# ffmpeg -i $output_file -vf eq=brightness=$random_decimal:saturation=$random_decimal:contrast=$random_decimal_A -c:a copy "collages/$(date +%s)-c.png"
+# ffmpeg -i $output_file -vf eq=contrast=$random_contrast -c:a copy "collages/$(date +%s)-c.png"
+ffmpeg -i $output_file -vf eq=brightness=$random_brightness:saturation=$random_saturation:contrast=$random_contrast -c:a copy "collages/$(date +%s)-c.png"
+
+rm $output_file
 
 # first integer refers to an image index, seems like zero or one
 # second number decreases the size of the second overlayed image as it increases and accepts floats
