@@ -1,10 +1,13 @@
 # echo $((1 + RANDOM % 1000))
 # identify -format '%w %h' A.png
 
-width_A=$(identify -format '%w' A.png)
-height_A=$(identify -format '%h' A.png)
-width_B=$(identify -format '%w' B.png)
-height_B=$(identify -format '%h' B.png)
+random_image_A="./images/$(ls images/ | sort -R | tail -n 1)"
+random_image_B="./images/$(ls images/ | sort -R | tail -n 1)"
+
+width_A=$(identify -format '%w' "$random_image_A")
+height_A=$(identify -format '%h' "$random_image_A")
+width_B=$(identify -format '%w' "$random_image_B")
+height_B=$(identify -format '%h' "$random_image_B")
 
 random_width_A1=$((1 + RANDOM % $width_A))
 random_height_A1=$((1 + RANDOM % $height_A))
@@ -24,8 +27,8 @@ random_height_B2=$((1 + RANDOM % $height_B))
 # ffmpeg -i out1.png -vf eq=brightness=100:saturation=200:contrast=-2000 -c:a copy out2.png
 
 ffmpeg \
-      -i A.png \
-      -i B.png \
+      -i "$random_image_A" \
+      -i "$random_image_B" \
       -filter_complex \
        "[1:v] scale=$random_width_A1:$random_height_A1 [ovr1], 
        [1:v] scale=$random_width_B1:$random_height_B1 [ovrl2], 
