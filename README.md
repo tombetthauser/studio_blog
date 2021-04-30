@@ -7,6 +7,12 @@
 <br>
 <br>
 <br>
+<img style="max-width: 500px; margin-bottom: 20px" src="https://raw.githubusercontent.com/tombetthauser/studio_blog/master/images/port city....png">
+<p style="margin-bottom: 50px">port city...</p><br>
+<img style="max-width: 500px; margin-bottom: 20px" src="https://raw.githubusercontent.com/tombetthauser/studio_blog/master/images/so many keycaps....png">
+<p style="margin-bottom: 50px">so many keycaps...</p><br>
+<img style="max-width: 500px; margin-bottom: 20px" src="https://raw.githubusercontent.com/tombetthauser/studio_blog/master/images/blocked out....png">
+<p style="margin-bottom: 50px">blocked out...</p><br>
 <img style="max-width: 500px; margin-bottom: 20px" src="https://raw.githubusercontent.com/tombetthauser/studio_blog/master/images/recess time....png">
 <p style="margin-bottom: 50px">recess time...</p><br>
 <img style="max-width: 500px; margin-bottom: 20px" src="https://raw.githubusercontent.com/tombetthauser/studio_blog/master/images/countin grooves....png">
