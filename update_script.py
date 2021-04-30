@@ -50,6 +50,7 @@ class SiteBot:
     
     for i in range(len(images)):
       images[i].click()
+      print(f"Retreiving image {i}...")
       sleep(wait)
 
       current_image = self.driver.find_element_by_tag_name("img")
@@ -66,7 +67,7 @@ class SiteBot:
 
       urllib.request.urlretrieve(current_image_source, f"images/{current_image_text}.png")
 
-      print(self.images_dict)
+      # print(self.images_dict)
       self.driver.back()
       sleep(wait)
       images = self.driver.find_elements_by_class_name("x-stream-photo-group-blocks-container-view")
