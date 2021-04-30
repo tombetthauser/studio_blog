@@ -7,6 +7,8 @@
 <br>
 <br>
 <br>
+<img style="max-width: 500px; margin-bottom: 20px" src="https://raw.githubusercontent.com/tombetthauser/studio_blog/master/images/nailed down....png">
+<p style="margin-bottom: 50px">nailed down...</p><br>
 <img style="max-width: 500px; margin-bottom: 20px" src="https://raw.githubusercontent.com/tombetthauser/studio_blog/master/images/port city....png">
 <p style="margin-bottom: 50px">port city...</p><br>
 <img style="max-width: 500px; margin-bottom: 20px" src="https://raw.githubusercontent.com/tombetthauser/studio_blog/master/images/so many keycaps....png">
