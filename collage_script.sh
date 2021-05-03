@@ -48,11 +48,21 @@ random_brightness="0.$((0 + RANDOM % 50))"
 
 # ffmpeg -i $output_file -vf eq=contrast=$random_contrast -c:a copy "collages/$(date +%s)-c.png"
 
+
+all_text=$(cat text.txt)
+
+line_count=$(wc -l text.txt | awk '{ print $1 }')
+rand_line_start=$((0 + RANDOM % $line_count))
+# rand_line_end=$(expr $rand_line_start + $((0 + RANDOM % $line_count)))
+rand_line_end=$(expr $rand_line_start)
+text_lines=$(sed -n "$rand_line_start,$rand_line_end"p text.txt)
+
+
 ffmpeg -i $output_file -vf \
   eq=brightness=$random_brightness:saturation=$random_saturation:contrast=$random_contrast,drawtext="fontfile=/path/to/font.ttf: \
-    text='HELLO THERE': \ 
+    text='''$all_text''': \ 
     fontcolor=#$((0 + RANDOM % 10))$((0 + RANDOM % 10))$((0 + RANDOM % 10))$((0 + RANDOM % 10))$((0 + RANDOM % 10))$((0 + RANDOM % 10)): \ 
-    fontsize=$((0 + RANDOM % 2000)): \ 
+    fontsize=$(expr 5 + $((0 + RANDOM % 25))): \ 
     box=1: \ 
     boxcolor=black@0.5: \ 
     boxborderw=5: \ 
