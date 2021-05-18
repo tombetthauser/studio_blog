@@ -7,6 +7,8 @@
 <br>
 <br>
 <br>
+<img style="max-width: 500px; margin-bottom: 20px" src="https://raw.githubusercontent.com/tombetthauser/studio_blog/master/images/Getting close, sculpts with paper mockups....png">
+<p style="margin-bottom: 50px">Getting close, sculpts with paper mockups...</p><br>
 <img style="max-width: 500px; margin-bottom: 20px" src="https://raw.githubusercontent.com/tombetthauser/studio_blog/master/images/Still not sure about those angles....png">
 <p style="margin-bottom: 50px">Still not sure about those angles...</p><br>
 <img style="max-width: 500px; margin-bottom: 20px" src="https://raw.githubusercontent.com/tombetthauser/studio_blog/master/images/Not quite sure about those angles....png">
