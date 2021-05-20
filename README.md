@@ -7,12 +7,12 @@
 <br>
 <br>
 <br>
+<img style="max-width: 500px; margin-bottom: 20px" src="https://raw.githubusercontent.com/tombetthauser/studio_blog/master/images/Just one more pass then ready to mold....png">
+<p style="margin-bottom: 50px">Just one more pass then ready to mold...</p><br>
 <img style="max-width: 500px; margin-bottom: 20px" src="https://raw.githubusercontent.com/tombetthauser/studio_blog/master/images/Not totally sure about the knob and stickers....png">
 <p style="margin-bottom: 50px">Not totally sure about the knob and stickers...</p><br>
 <img style="max-width: 500px; margin-bottom: 20px" src="https://raw.githubusercontent.com/tombetthauser/studio_blog/master/images/Not sure if this was the earliest design but seemed to be....png">
 <p style="margin-bottom: 50px">Not sure if this was the earliest design but seemed to be...</p><br>
-<img style="max-width: 500px; margin-bottom: 20px" src="https://raw.githubusercontent.com/tombetthauser/studio_blog/master/images/Just one more pass....png">
-<p style="margin-bottom: 50px">Just one more pass...</p><br>
 <img style="max-width: 500px; margin-bottom: 20px" src="https://raw.githubusercontent.com/tombetthauser/studio_blog/master/images/Getting close, sculpts with paper mockups....png">
 <p style="margin-bottom: 50px">Getting close, sculpts with paper mockups...</p><br>
 <img style="max-width: 500px; margin-bottom: 20px" src="https://raw.githubusercontent.com/tombetthauser/studio_blog/master/images/Still not sure about those angles....png">
