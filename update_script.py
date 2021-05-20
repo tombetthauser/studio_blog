@@ -129,8 +129,8 @@ class SiteBot:
     os.system("git push")
 
 new_bot = SiteBot()
-new_bot.visit_url("https://www.icloud.com/sharedalbum/#B0o5oqs3q7vYSt", 10)
-new_bot.get_images(10)
+new_bot.visit_url("https://www.icloud.com/sharedalbum/#B0o5oqs3q7vYSt", 3)
+new_bot.get_images(5)
 new_bot.output_files()
 new_bot.commit_to_github()
 
