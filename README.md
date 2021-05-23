@@ -7,6 +7,16 @@
 <br>
 <br>
 <br>
+<img style="max-width: 500px; margin-bottom: 20px" src="https://raw.githubusercontent.com/tombetthauser/studio_blog/master/images/Bubbles might be from old silicone or from issues with the pour. On both sides though oddly as the pour was just on one side....png">
+<p style="margin-bottom: 50px">Bubbles might be from old silicone or from issues with the pour. On both sides though oddly as the pour was just on one side...</p><br>
+<img style="max-width: 500px; margin-bottom: 20px" src="https://raw.githubusercontent.com/tombetthauser/studio_blog/master/images/Small pock marks might be from old silicone....png">
+<p style="margin-bottom: 50px">Small pock marks might be from old silicone...</p><br>
+<img style="max-width: 500px; margin-bottom: 20px" src="https://raw.githubusercontent.com/tombetthauser/studio_blog/master/images/IBM Reference Library binder, in all its pinkness....png">
+<p style="margin-bottom: 50px">IBM Reference Library binder, in all its pinkness...</p><br>
+<img style="max-width: 500px; margin-bottom: 20px" src="https://raw.githubusercontent.com/tombetthauser/studio_blog/master/images/Ready to cast with resin dye....png">
+<p style="margin-bottom: 50px">Ready to cast with resin dye...</p><br>
+<img style="max-width: 500px; margin-bottom: 20px" src="https://raw.githubusercontent.com/tombetthauser/studio_blog/master/images/Test mold No.01 done....png">
+<p style="margin-bottom: 50px">Test mold No.01 done...</p><br>
 <img style="max-width: 500px; margin-bottom: 20px" src="https://raw.githubusercontent.com/tombetthauser/studio_blog/master/images/Just testing this batch pf silicone....png">
 <p style="margin-bottom: 50px">Just testing this batch pf silicone...</p><br>
 <img style="max-width: 500px; margin-bottom: 20px" src="https://raw.githubusercontent.com/tombetthauser/studio_blog/master/images/Poured silicone over the reference guide....png">
