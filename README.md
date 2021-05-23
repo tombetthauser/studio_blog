@@ -7,8 +7,14 @@
 <br>
 <br>
 <br>
-<img style="max-width: 500px; margin-bottom: 20px" src="https://raw.githubusercontent.com/tombetthauser/studio_blog/master/images/Personal computer hardware reference library....png">
-<p style="margin-bottom: 50px">Personal computer hardware reference library...</p><br>
+<img style="max-width: 500px; margin-bottom: 20px" src="https://raw.githubusercontent.com/tombetthauser/studio_blog/master/images/Just testing this batch pf silicone....png">
+<p style="margin-bottom: 50px">Just testing this batch pf silicone...</p><br>
+<img style="max-width: 500px; margin-bottom: 20px" src="https://raw.githubusercontent.com/tombetthauser/studio_blog/master/images/Poured silicone over the reference guide....png">
+<p style="margin-bottom: 50px">Poured silicone over the reference guide...</p><br>
+<img style="max-width: 500px; margin-bottom: 20px" src="https://raw.githubusercontent.com/tombetthauser/studio_blog/master/images/Sloppy and imperfect....png">
+<p style="margin-bottom: 50px">Sloppy and imperfect...</p><br>
+<img style="max-width: 500px; margin-bottom: 20px" src="https://raw.githubusercontent.com/tombetthauser/studio_blog/master/images/Quickest possible sculpt to test the silicone....png">
+<p style="margin-bottom: 50px">Quickest possible sculpt to test the silicone...</p><br>
 <img style="max-width: 500px; margin-bottom: 20px" src="https://raw.githubusercontent.com/tombetthauser/studio_blog/master/images/Disk drive ready to mold....png">
 <p style="margin-bottom: 50px">Disk drive ready to mold...</p><br>
 <img style="max-width: 500px; margin-bottom: 20px" src="https://raw.githubusercontent.com/tombetthauser/studio_blog/master/images/Tandy 5.25 floppy caddy bonus nugget....png">
