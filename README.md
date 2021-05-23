@@ -7,6 +7,12 @@
 <br>
 <br>
 <br>
+<img style="max-width: 500px; margin-bottom: 20px" src="https://raw.githubusercontent.com/tombetthauser/studio_blog/master/images/Personal computer hardware reference library....png">
+<p style="margin-bottom: 50px">Personal computer hardware reference library...</p><br>
+<img style="max-width: 500px; margin-bottom: 20px" src="https://raw.githubusercontent.com/tombetthauser/studio_blog/master/images/Disk drive ready to mold....png">
+<p style="margin-bottom: 50px">Disk drive ready to mold...</p><br>
+<img style="max-width: 500px; margin-bottom: 20px" src="https://raw.githubusercontent.com/tombetthauser/studio_blog/master/images/Tandy 5.25 floppy caddy bonus nugget....png">
+<p style="margin-bottom: 50px">Tandy 5.25 floppy caddy bonus nugget...</p><br>
 <img style="max-width: 500px; margin-bottom: 20px" src="https://raw.githubusercontent.com/tombetthauser/studio_blog/master/images/Just one more pass then ready to mold....png">
 <p style="margin-bottom: 50px">Just one more pass then ready to mold...</p><br>
 <img style="max-width: 500px; margin-bottom: 20px" src="https://raw.githubusercontent.com/tombetthauser/studio_blog/master/images/Not totally sure about the knob and stickers....png">
