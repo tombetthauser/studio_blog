@@ -7,6 +7,12 @@
 <br>
 <br>
 <br>
+<img style="max-width: 500px; margin-bottom: 20px" src="https://raw.githubusercontent.com/tombetthauser/studio_blog/master/images/test cast, so satisfying....png">
+<p style="margin-bottom: 50px">test cast, so satisfying...</p><br>
+<img style="max-width: 500px; margin-bottom: 20px" src="https://raw.githubusercontent.com/tombetthauser/studio_blog/master/images/Cast turned out excellent, one little bubble....png">
+<p style="margin-bottom: 50px">Cast turned out excellent, one little bubble...</p><br>
+<img style="max-width: 500px; margin-bottom: 20px" src="https://raw.githubusercontent.com/tombetthauser/studio_blog/master/images/Went for it with new silicone and the disk drive, then kicked the whole thing onto the ground randomly... seemed ok but we'll see....png">
+<p style="margin-bottom: 50px">Went for it with new silicone and the disk drive, then kicked the whole thing onto the ground randomly... seemed ok but we'll see...</p><br>
 <img style="max-width: 500px; margin-bottom: 20px" src="https://raw.githubusercontent.com/tombetthauser/studio_blog/master/images/Bubbles might be from old silicone or from issues with the pour. On both sides though oddly as the pour was just on one side....png">
 <p style="margin-bottom: 50px">Bubbles might be from old silicone or from issues with the pour. On both sides though oddly as the pour was just on one side...</p><br>
 <img style="max-width: 500px; margin-bottom: 20px" src="https://raw.githubusercontent.com/tombetthauser/studio_blog/master/images/Small pock marks might be from old silicone....png">
